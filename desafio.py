@@ -16,8 +16,7 @@ limite = 500
 extrato = ""
 numero_saques = 0
 LIMITE_SAQUES = 3
-#dados_usuarios = {}
-dados_usuarios = {"38291661847":{"usuario_nome":"Lucas Venancio de Araujo", "usuario_nasc":"15/04/1990", "usuario_endereco":"Rua Aguanaval, 73 - Jardim Presidente - São Paulo/SP"}, "38291661857":{"usuario_nome":"Diego Dias Venancio de Araujo", "usuario_nasc":"19/06/1992", "usuario_endereco":"Rua Aguanaval, 73 - Jardim Presidente - São Paulo/SP"} }
+dados_usuarios = {}
 contas = []
 numero_conta = 0
 
