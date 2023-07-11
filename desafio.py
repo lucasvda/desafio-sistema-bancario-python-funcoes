@@ -148,8 +148,7 @@ while True:
                 print("Por gentileza, faça o cadastro novamente.")
         elif verificar_usuario(dados_usuarios, cpf) == True:
             print("Esse CPF ainda não possuí cadastro, por gentileza faça o cadastro de usuário primeiro.")
-        else:
-            #numero_conta = verificar_conta_existente(cpf, contas)
+        else:            
             contas.append(cadastrar_conta(cpf, numero_conta))
             numero_conta += 1
             print(f"Conta cadastrada com sucesso!")
